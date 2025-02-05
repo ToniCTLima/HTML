@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+* {
+   margin: 0; 
+   padding: 0;
+   box-sizing: border-box;
 }
 
 body {
-    background-color: #F4F0EA;
-    color: #798253;
+    background-color: #f4f0ea; 
+    color: #798252;
     font-family: "Cabin", sans-serif;
     font-weight: 400;
 }
@@ -34,5 +35,10 @@ section {
 
 h2 {
     color: #331f19;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+
+}
+
+input [type="radio"], input[type="checkbox"] {
+    accent-color: #ccd595;
 }
